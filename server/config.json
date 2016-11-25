@@ -1,0 +1,128 @@
+{
+  "startData": {
+    "teams": {
+      "blue": {
+        "name": "Blue Team",
+        "score": 0,
+        "players": [
+          {
+            "nick": "",
+            "realName": ""
+          },
+          {
+            "nick": "",
+            "realName": ""
+          },
+          {
+            "nick": "",
+            "realName": ""
+          },
+          {
+            "nick": "",
+            "realName": ""
+          },
+          {
+            "nick": "",
+            "realName": ""
+          }
+        ]
+      },
+      "red": {
+        "name": "Red Team",
+        "score": 0,
+        "players": [
+          {
+            "nick": "",
+            "realName": ""
+          },
+          {
+            "nick": "",
+            "realName": ""
+          },
+          {
+            "nick": "",
+            "realName": ""
+          },
+          {
+            "nick": "",
+            "realName": ""
+          },
+          {
+            "nick": "",
+            "realName": ""
+          }
+        ]
+      }
+    },
+    "numberOfGames": 3,
+    "casters": {
+      "left": "Peter Griffin",
+      "right": "Louis Griffin"
+    },
+    "afkMessage": {
+      "title": "I'll be back",
+      "text": "Technical difficulties, please stand by!"
+    },
+    "sponsorImages": [
+      "ityn.png",
+      "tut.png",
+      "redbull.png"
+    ],
+    "timetable": [
+      {
+        "time": "19:00",
+        "event": "End of the World"
+      },
+      {
+        "time": "23:00",
+        "event": "Free Snacks"
+      },
+      {
+        "time": "03:00",
+        "event": "Underwater Basket Weaving Contest"
+      },
+      {
+        "time": "11:00",
+        "event": "Coffee Making Workshop"
+      }
+    ]
+  },
+  "views": [
+    {
+      "id": "afkPic",
+      "name": "AFK with Picture BG",
+      "scene": "backdrop",
+      "overlay": "afk"
+    },
+    {
+      "id": "afkHallcam",
+      "name": "AFK with Hallcam",
+      "scene": "webcam",
+      "overlay": "afk"
+    },
+    {
+      "id": "timetableHallcam",
+      "name": "Timetable with Hallcam",
+      "scene": "webcam",
+      "overlay": "timetable"
+    },
+    {
+      "id": "timetableBackdrop",
+      "name": "Timetable with Backdrop",
+      "scene": "backdrop",
+      "overlay": "timetable"
+    },
+    {
+      "id": "inGame",
+      "name": "In Game",
+      "scene": "game",
+      "overlay": "ingame"
+    },
+    {
+      "id": "casters",
+      "name": "Casters",
+      "scene": "webcam",
+      "overlay": "casters"
+    }
+  ]
+}
